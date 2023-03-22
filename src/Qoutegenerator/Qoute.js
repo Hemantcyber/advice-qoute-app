@@ -28,7 +28,7 @@ class Qoute extends React.Component {
       <div className="main">
         <div className="card">
           <h1 className="heading">{advice}</h1>
-          <button className="button" onClick={this.fetchAdvice}>
+          <button className="button glow-on-hover" onClick={this.fetchAdvice}>
             <span>GIVE ME ADVICE!</span>
           </button>
         </div>
